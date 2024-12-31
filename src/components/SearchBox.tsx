@@ -13,8 +13,8 @@ export const SearchBox = () => {
   }, []);
 
   return (
-    <div className="w-full max-w-3xl mx-auto px-4 transition-all duration-300 hover:scale-[1.02]">
-      <div className="bg-white rounded-2xl shadow-lg p-6 md:p-8">
+    <div className="w-full max-w-3xl mx-auto px-4">
+      <div className="bg-white rounded-lg">
         <div className="gcse-search"></div>
       </div>
     </div>

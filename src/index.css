@@ -37,52 +37,51 @@
   background-color: transparent !important;
   border: none !important;
   padding: 0 !important;
+  width: 100% !important;
 }
 
 .gsc-search-button-v2 {
   background-color: #4CAF50 !important;
   border-color: #4CAF50 !important;
-  border-radius: 12px !important;
-  padding: 12px 24px !important;
+  border-radius: 8px !important;
+  padding: 10px 20px !important;
   margin-left: 8px !important;
-  transition: all 0.3s ease !important;
-}
-
-.gsc-search-button-v2:hover {
-  background-color: #45a049 !important;
-  transform: translateY(-1px) !important;
 }
 
 .gsc-input-box {
-  border-radius: 12px !important;
-  border: 2px solid #E0E0E0 !important;
-  padding: 8px 16px !important;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05) !important;
-  transition: all 0.3s ease !important;
-}
-
-.gsc-input-box:focus-within {
-  border-color: #4CAF50 !important;
-  box-shadow: 0 4px 8px rgba(76, 175, 80, 0.1) !important;
+  border-radius: 8px !important;
+  border: 1px solid #E0E0E0 !important;
+  padding: 6px 12px !important;
 }
 
 .gsc-input {
-  padding-right: 16px !important;
   font-size: 16px !important;
 }
 
 .gsc-results-wrapper-overlay {
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  margin: 0 !important;
+  padding: 1rem !important;
   background-color: rgba(255, 255, 255, 0.98) !important;
-  border-radius: 16px !important;
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1) !important;
+}
+
+.gsc-results-wrapper-visible {
+  display: block !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  animation: none !important;
 }
 
 @media (max-width: 768px) {
   .gsc-search-button-v2 {
-    padding: 10px 20px !important;
+    padding: 8px 16px !important;
   }
   
   .gsc-input-box {
-    padding: 6px 12px !important;
+    padding: 4px 8px !important;
   }
 }
