@@ -11,9 +11,6 @@ const Index = () => {
           <h1 className="text-4xl md:text-6xl font-bold text-primary mb-4">
             enginee.online
           </h1>
-          <p className="text-secondary-foreground text-lg md:text-xl">
-            Your gateway to knowledge in 2025
-          </p>
         </div>
 
         <SearchBox />
@@ -21,7 +18,7 @@ const Index = () => {
 
       <footer className="fixed bottom-0 w-full py-4 bg-white/80 backdrop-blur-sm">
         <div className="container mx-auto text-center text-sm text-secondary-foreground">
-          © 2025 enginee.online - Empowering your search experience
+          © 2025 enginee.online
         </div>
       </footer>
     </div>
